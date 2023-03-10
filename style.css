@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    
+    align-items: start;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: 5px;
+    
+    
+    
+}
+.containers{
+    background-color: beige;
+    height: 100vh;
+    width: 100%;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-right: 5%;
+    padding-left: 0%;
+    background-color: aliceblue;
+}
+nav ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+button{
+    border: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 13px;
+    background-color: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+.page-footer{
+    height: 4rem;
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#brand, #owner{
+    color: #ea1538;
+    font-size: 20px;
+}
+
+.hero{
+    height: 40vh;
+    background: url(04092017_Tandoori_01.jpeg) center/cover no-repeat;
+    
+    border-radius: var(--borderRadius);
+    position: relative;
+
+}
+
+.hero-container{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.4);
+    border-radius: var(--borderRadius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text{
+    text-align: center;
+    color: white;
+}
+
+@media screen and (min-width:768px) {
+    .hero-text h1{
+font-size: 4rem;
+margin-bottom: 0;
+    }
+    
+}
+    
+
